@@ -1,0 +1,10 @@
+print("-----------------CALCULADORA---------------")
+num_1 = int(input(" digite um número: "))
+num_2 = int(input(" digite um número: "))
+
+print("-----------------RESULTADO-----------------")
+print("A soma é:", (num_1+num_2))
+print("A subtração é:", (num_1-num_2))
+print("A multiplicaçaõ é:", (num_1*num_2))
+print("A divisão é:", (num_1/num_2))
+print("O resto da soma é:", (num_1%num_2))
