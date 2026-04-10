@@ -98,6 +98,74 @@ venda = {venda}
 # mostrar o resultado.
 print("----------------------- CALCULADORA ----------------------")
 
+num1 = float(input("digite o valor 1: "))
+num2 = float(input("digite o valor 2 : "))
+print("digite a formula que voce deseja calcular(+)(-)(*)(/): ")
+formula = input("digite a formula: ")
+
+if formula == '+':
+    calculo = num1+num2
+elif formula == '-':
+    calculo = num1-num2
+elif formula == '*':
+    calculo = num1*num2
+elif formula == '/':
+    calculo = num1/num2
+else:
+    print("erro digite alguma opção")
+
+print(f"o resultado de {num1} {formula} {num2} = {calculo}")
+
+
+# 5- Ler 4 números inteiros, exibir o maior e o menor deles.
+# Exercício 5
+nu1 = int(input("Digite o 1° número: "))
+nu2 = int(input("Digite o 2° número: "))
+nu3 = int(input("Digite o 3° número: "))
+nu4 = int(input("Digite o 4° número: "))
+
+maior = nu1
+menor = nu1
+
+if nu2 > maior:
+    maior = nu2
+if nu3 > maior:
+    maior = nu3
+if nu4 > maior:
+    maior = nu4
+
+if nu2 < menor:
+    menor = nu2
+if nu3 < menor:
+    menor = nu3
+if nu4 < menor:
+    menor = nu4
+
+print(f"Maior: {maior}")
+print(f"Menor: {menor}")
+
+
+
+# 6 – ler 5 números inteiros e exibir o maior deles
+# Exercício 6
+n1 = int(input("Digite o 1° número: "))
+n2 = int(input("Digite o 2° número: "))
+n3 = int(input("Digite o 3° número: "))
+n4 = int(input("Digite o 4° número: "))
+n5 = int(input("Digite o 5° número: "))
+
+maior = n1
+
+if n2 > maior:
+    maior = n2
+if n3 > maior:
+    maior = n3
+if n4 > maior:
+    maior = n4
+if n5 > maior:
+    maior = n5
+
+print(f"Maior: {maior}")
 
 
 
@@ -105,9 +173,9 @@ print("----------------------- CALCULADORA ----------------------")
 
 #exercicio
 # 5- ler os valor e dizer qual é o maior 
-n1 = int(input("Digite um número:"))
-n2 = int(input("Digite um número:"))
-n3 = int(input("Digite um número:"))
-n4 = int(input("Digite um número:"))
-n5 = int(input("Digite um número:"))
+#n1 = int(input("Digite um número:"))
+#n2 = int(input("Digite um número:"))
+#n3 = int(input("Digite um número:"))
+#n4 = int(input("Digite um número:"))
+#n5 = int(input("Digite um número:"))
 
