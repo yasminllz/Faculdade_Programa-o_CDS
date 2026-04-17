@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos – Doces da Yas</title>
+  <script type="module" crossorigin src="/assets/script-DTiVg0Nh.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/style-BxL9Lxfi.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-name">Doces da Yas</span>
+      <span class="nav-logo-sub">Confeitaria</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="reserva.html">Encomendar</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="carrinho.html" class="cart-btn" title="Carrinho">
+        🛒<span class="cart-badge" style="display:none">0</span>
+      </a>
+      <div id="nav-auth"></div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="reserva.html">Encomendar</a>
+    <a href="carrinho.html">Carrinho</a>
+    <a href="contato.html">Contato</a>
+    <a href="login.html">Entrar</a>
+  </div>
+
+  <div class="page-header">
+    <span class="page-header-tag">Nossas Criações</span>
+    <h1>Todos os Produtos</h1>
+    <p>Descubra nossa linha completa de doces artesanais, bolos e sobremesas especiais</p>
+  </div>
+
+  <section class="products-section" style="padding-top:3rem;">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="todos">Todos</button>
+        <button class="filter-tab" data-filter="bolos">Bolos</button>
+        <button class="filter-tab" data-filter="doces">Doces</button>
+        <button class="filter-tab" data-filter="sobremesas">Sobremesas</button>
+      </div>
+      <div class="products-grid" id="products-grid"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-name">Doces da Yas</div>
+        <div class="footer-brand-sub">Confeitaria</div>
+        <p>Tradição, sabor e qualidade em cada criação artesanal.</p>
+        <div class="social-links" style="margin-top:1.5rem;">
+          <a href="#" class="social-link">📸</a>
+          <a href="#" class="social-link">📘</a>
+          <a href="#" class="social-link">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="reserva.html">Encomendas</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="#">Bolos</a></li>
+          <li><a href="#">Doces</a></li>
+          <li><a href="#">Sobremesas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p style="color:var(--text-muted);font-size:0.82rem;margin-bottom:1rem;">Receba novidades e promoções especiais.</p>
+        <form class="footer-newsletter newsletter-form">
+          <input type="email" placeholder="Seu e-mail">
+          <button type="submit">→</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Doces da Yas. Todos os direitos reservados.</span>
+      <span style="color:var(--gold);">Feito com ♥ e muito açúcar</span>
+    </div>
+  </footer>
+
+  <button id="back-to-top" title="Voltar ao topo">↑</button>
+</body>
+</html>

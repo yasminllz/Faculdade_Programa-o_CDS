@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar – Doces da Yas</title>
+  <link rel="stylesheet" crossorigin href="/assets/style-BxL9Lxfi.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-name">Doces da Yas</span>
+      <span class="nav-logo-sub">Confeitaria</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="reserva.html">Encomendar</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="carrinho.html" class="cart-btn" title="Carrinho">
+        🛒<span class="cart-badge" style="display:none">0</span>
+      </a>
+      <div id="nav-auth"></div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="reserva.html">Encomendar</a>
+    <a href="carrinho.html">Carrinho</a>
+    <a href="contato.html">Contato</a>
+  </div>
+
+  <section class="auth-section" style="padding-top:var(--header-height);">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="auth-logo-name">Doces da Yas</div>
+        <div class="auth-logo-sub">Confeitaria</div>
+      </div>
+
+      <h2 class="auth-title">Bem-vinda de volta</h2>
+      <p class="auth-subtitle">Entre na sua conta para continuar</p>
+
+      <div class="alert" id="auth-alert" style="display:none;"></div>
+
+      <form id="login-form">
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" id="login-email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" id="login-password" placeholder="Sua senha" required>
+        </div>
+        <div style="text-align:right;margin-bottom:1.5rem;">
+          <a href="#" style="color:var(--gold);font-size:0.82rem;text-decoration:none;">Esqueci minha senha</a>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" style="font-size:1rem;padding:1rem;">
+          Entrar
+        </button>
+      </form>
+
+      <div class="auth-divider">ou continue como visitante</div>
+
+      <a href="index.html" class="btn btn-outline btn-full" style="font-size:0.9rem;">
+        Continuar sem conta
+      </a>
+
+      <div class="auth-switch">
+        Não tem conta? <a href="cadastro.html">Cadastre-se grátis</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

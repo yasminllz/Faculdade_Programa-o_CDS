@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro – Doces da Yas</title>
+  <link rel="stylesheet" crossorigin href="/assets/style-BxL9Lxfi.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-name">Doces da Yas</span>
+      <span class="nav-logo-sub">Confeitaria</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="reserva.html">Encomendar</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="carrinho.html" class="cart-btn" title="Carrinho">
+        🛒<span class="cart-badge" style="display:none">0</span>
+      </a>
+      <div id="nav-auth"></div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="reserva.html">Encomendar</a>
+    <a href="carrinho.html">Carrinho</a>
+    <a href="contato.html">Contato</a>
+    <a href="login.html">Entrar</a>
+  </div>
+
+  <section class="auth-section" style="padding-top:var(--header-height);">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="auth-logo-name">Doces da Yas</div>
+        <div class="auth-logo-sub">Confeitaria</div>
+      </div>
+
+      <h2 class="auth-title">Criar Conta</h2>
+      <p class="auth-subtitle">Cadastre-se para fazer pedidos e acompanhar encomendas</p>
+
+      <div class="alert" id="auth-alert" style="display:none;"></div>
+
+      <form id="register-form">
+        <div class="form-group">
+          <label>Nome Completo</label>
+          <input type="text" id="reg-name" placeholder="Seu nome completo" required>
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" id="reg-email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" id="reg-password" placeholder="Mínimo 6 caracteres" required>
+        </div>
+        <div class="form-group">
+          <label>Confirmar Senha</label>
+          <input type="password" id="reg-confirm" placeholder="Repita sua senha" required>
+        </div>
+
+        <div style="background:rgba(201,168,76,0.08);border:1px solid var(--border-gold);border-radius:8px;padding:0.9rem 1rem;margin-bottom:1.2rem;">
+          <p style="color:var(--text-muted);font-size:0.78rem;line-height:1.5;">Ao criar uma conta, você concorda com nossos <a href="#" style="color:var(--gold);">Termos de Uso</a> e <a href="#" style="color:var(--gold);">Política de Privacidade</a>.</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full" style="font-size:1rem;padding:1rem;">
+          Criar Minha Conta
+        </button>
+      </form>
+
+      <div class="auth-switch">
+        Já tem conta? <a href="login.html">Entrar</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
